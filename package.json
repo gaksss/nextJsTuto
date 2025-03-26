@@ -32,5 +32,11 @@
   },
   "optionalDependencies": {
     "bcrypt": "^5.1.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bcrypt",
+      "sharp"
+    ]
   }
 }
